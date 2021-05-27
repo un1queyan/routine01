@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDataSourceStorage">
+    <option name="dataSources">
+      <list>
+        <State>
+          <option name="id" value="d24e48b3-b0dd-43e2-8942-e1141dbdd921" />
+          <option name="name" value="console" />
+          <option name="urls">
+            <array>
+              <option value="file://$APPLICATION_CONFIG_DIR$/consoles/db/3e28ca92-d9d1-429e-9707-5769665d812d/console.sql" />
+            </array>
+          </option>
+        </State>
+      </list>
+    </option>
+  </component>
+</project>

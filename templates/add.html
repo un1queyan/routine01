@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<h1>添加老师</h1>
+<!----------表格部分-------------->
+<form method="post" action="/add_teacher/">
+    <p>老师名称<input type="text" name="name"></p>
+    <p>任教班级
+
+        {% for i in classlist %}
+
+            <input name="classname" type="checkbox" value="{{ i.id }}">{{ i.title }}
+        {% endfor %}
+
+    </p>
+    <input type="submit" value="提交">
+</form>
+
+
+
+</body>
+</html>
